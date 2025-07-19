@@ -1,0 +1,54 @@
+.header {
+  background-color: #F5F5F5;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.logo {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 50px;
+}
+
+.datetime {
+  text-align: right;
+  margin-left: auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header .datetime .time {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.header .datetime .date {
+  font-size: 1rem;
+  color: black;
+  font-family: Arial, sans-serif;
+}
